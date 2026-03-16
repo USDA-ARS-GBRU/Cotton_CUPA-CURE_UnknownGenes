@@ -15,54 +15,46 @@ Add a DOI link when it's available.
 
 ## Description
 
-These scripts are here for extracting.
+These scripts are here for extracting unknown genes from the annotation .txt file. A seperate .R file is provided for generating the graphs displayed in the publication.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Windows 10 Powershell
 
 ### Executing program
+* Enter your input and output files into the script provided for each step to generate the list of unknown genes.
+* Each step should be run individually in order.
 
 #### Basic use-case
 
-* Provide sample data
-* Make simple use-case documented for sample data
+* One of the analyzed genome annotation files is included as a sample data set. 
+* The first command with the output and input variables replaced is provided below.
 ```
-code blocks for commands
+Get-Content "INPUT" | Where-Object {$_ -match 'unknown|DUF|putative|uncharacterised' } | Out-File -FilePath "Output.txt"
 ```
 
 #### Detailed Usage
 
-* How to run the program
-* Step-by-step bullets
+* It is important to note that a genomes annotation file may differ from the cotton genomes analyzed. Where that is the case the column or key words being searched must be adjusted.
+* This can be done by editing the [##] in order to adjust the columns being searched.
+* An additional command is provided at the bottom of the code document detailing a use case where only the first 12 columns are being searched.
 ```
 code blocks for commands
 ```
 
 ## Help
 
-Any advise for common problems or issues. 
-Users may be interested in the 'FAQ' page. [Link to wiki]().
-Developers may be interested in the 'Developers' Documentation' page [Link to wiki]().
-```
-<function> -h command to run if program contains helper info
-```
+* Keep in mind that powershell works on a zero index. In other words the first column is called by [0] the second column by [1] etc.
+
 
 ### Corresponding Contact
 
 Contact info for current maintaining author
 
-ex. Name
-
-ex. [Name]()
+Jonathan Zirkel 
+Amanda Hulse-Kemp
 
 ## Version History
 
