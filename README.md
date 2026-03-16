@@ -32,7 +32,7 @@ These scripts are here for extracting unknown genes from the annotation .txt fil
 * One of the analyzed genome annotation files is included as a sample data set. 
 * The first command with the output and input variables replaced is provided below.
 ```
-Get-Content "INPUT" | Where-Object {$_ -match 'unknown|DUF|putative|uncharacterised' } | Out-File -FilePath "Output.txt"
+Get-Content "Ghirsutum_527_v2.1.annotation_info.txt" | Where-Object {$_ -match 'unknown|DUF|putative|uncharacterised' } | Out-File -FilePath "Output.txt"
 ```
 
 #### Detailed Usage
