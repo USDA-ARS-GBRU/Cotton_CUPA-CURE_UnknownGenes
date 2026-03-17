@@ -29,6 +29,7 @@ These scripts are here for extracting unknown genes from the annotation .txt fil
 
 #### Basic use-case
 
+* Extracting unnannoted or unknown genes from an annotation file.
 * One of the analyzed genome annotation files is included as a sample data set. 
 * The first command with the output and input variables replaced is provided below.
 ```
@@ -58,10 +59,6 @@ Contact info for current maintaining author
 
 Jonathan Zirkel jwzirkel@ncsu.edu
 Amanda Hulse-Kemp amanda.hulse-kemp@usda.gov
-
-## Version History
-
-Versioning information is provided in <changelog.txt> or <changelog.md> or [release history]()
 
 ## License
 
