@@ -40,8 +40,11 @@ Get-Content "Ghirsutum_527_v2.1.annotation_info.txt" | Where-Object {$_ -match '
 * It is important to note that a genomes annotation file may differ from the cotton genomes analyzed. Where that is the case the column or key words being searched must be adjusted.
 * This can be done by editing the [##] in order to adjust the columns being searched.
 * An additional command is provided at the bottom of the code document detailing a use case where only the first 12 columns are being searched.
+
 ```
-code blocks for commands
+Get-Content "INPUT" |
+Where-Object {($_.Split("`t")[0..11]) -match 'unknown|DUF|putative|uncharacterised'} |
+Out-File -FilePath "OUTPUT"
 ```
 
 ## Help
@@ -53,8 +56,8 @@ code blocks for commands
 
 Contact info for current maintaining author
 
-Jonathan Zirkel 
-Amanda Hulse-Kemp
+Jonathan Zirkel jwzirkel@ncsu.edu
+Amanda Hulse-Kemp amanda.hulse-kemp@usda.gov
 
 ## Version History
 
