@@ -1,0 +1,1 @@
+These notebooks serve as rough guides for students as they work through manually annotating and predicting the function of their proteins.
