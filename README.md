@@ -2,7 +2,7 @@
 
 Cotton suffers from a mostly functionally unannotated proteome. This problem is unsolvable by our current automated annotation tools. We systematically identified all unannotated proteins and their corresponding genes and filtered out those that were not appropriate for downstream analysis. We devised one mutually beneficial solution, which involves manual annotation relying on undergraduate students; one way this can be accoomplished is in a course-based format (an effort entitled the Cotton Unknown Protein Analysis - Course Based Undergraduate Research Experience or CUPA-CURE). This approach ultimately provides valuable annotations, in the form of a microPublication, that would otherwise remain synthesized. 
 
-This repository contains code for analyzing the unknown proteins, and workbooks for delivering the pipeline through the CUPA-CURE.
+This repository contains [code](https://github.com/USDA-ARS-GBRU/Cotton_CUPA-CURE_UnknownGenes/tree/main/code) for analyzing the unknown proteins, and [workbooks](https://github.com/USDA-ARS-GBRU/Cotton_CUPA-CURE_UnknownGenes/tree/main/CURE%20Materials/Workbooks) for delivering the pipeline through the CUPA-CURE.
 
 
 ## Citation
