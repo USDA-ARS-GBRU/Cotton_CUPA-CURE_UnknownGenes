@@ -1,13 +1,13 @@
 # Cotton_CUPA-CURE_UnknownGenes
 
-Cotton suffers from a mostly functionally unannotated proteome. This problem is unsolvable by our current automated annotation tools. We systematically identified all unannotated proteins and their corresponding genes and filtered out those that were not appropriate for downstream analysis. We devised one mutually beneficial solution, which involves manual annotation relying on undergraduate students presented in a course-based format (an effort entitled the Cotton Unknown Protein Analysis Course Based Undergraduate Research Experience or CUPA-CURE). This approach ultimately provides valuable annotations, in the form of a microPublication, that would otherwise remain synthesized. 
+Cotton suffers from a mostly functionally unannotated proteome. This problem is unsolvable by our current automated annotation tools. We systematically identified all unannotated proteins and their corresponding genes and filtered out those that were not appropriate for downstream analysis. We devised one mutually beneficial solution, which involves manual annotation relying on undergraduate students; one way this can be accoomplished is in a course-based format (an effort entitled the Cotton Unknown Protein Analysis - Course Based Undergraduate Research Experience or CUPA-CURE). This approach ultimately provides valuable annotations, in the form of a microPublication, that would otherwise remain synthesized. 
 
-This repository contains code for analyzing the unknown proteins and workbooks for delivering the CUPA-CURE.
+This repository contains code for analyzing the unknown proteins, and workbooks for delivering the pipeline through the CUPA-CURE.
 
 
 ## Citation
 [![DOI](https://zenodo.org/badge/217529920.svg)](https://zenodo.org/badge/latestdoi/217529920)
-Add a DOI link when it's available.
+Will be added a DOI link when it's available.
 
 * How to cite - update prior to publication and release. 
 
@@ -38,7 +38,7 @@ Get-Content "Ghirsutum_527_v2.1.annotation_info.txt" | Where-Object {$_ -match '
 
 #### Detailed Usage
 
-* It is important to note that a genomes annotation file may differ from the cotton genomes analyzed. Where that is the case the column or key words being searched must be adjusted.
+* It is important to note that a genomes annotation file may differ depending on the cotton genomes analyzed. Where that is the case the column or key words being searched must be adjusted.
 * This can be done by editing the [##] in order to adjust the columns being searched.
 * An additional command is provided at the bottom of the code document detailing a use case where only the first 12 columns are being searched.
 
@@ -64,11 +64,6 @@ Amanda Hulse-Kemp amanda.hulse-kemp@usda.gov
 
 This software is a work of the United States Department of Agriculture, Agricultural Research Service and is released under a Creative Commons CC0 public domain attribution - see the LICENSE.txt file for details
 
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [readme_template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-
 ### Funding Support
 This is a project supported by the U.S. Department of Agriculture - Agricultural Research Service (USDA-ARS) - Genomics and Bioinformatics Research Unit (GBRU) through CRIS Project No. 6066-21310-006-000-D.
-Additional project support was through <and any additional agreements or grants>.
+Additional project support was through NIFA/USDA project numbers MISW-2021-11369, MISW-2021-07681 and Cotton Incorporated Project Nos.18-274, 19-872 and 21-734.
